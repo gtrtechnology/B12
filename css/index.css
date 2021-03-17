@@ -1,0 +1,8 @@
+.bg-resines{
+    background: url(/src/img/resines.png) no-repeat; 
+    background-position: top;
+    height: 79vh;
+}
+.ganadores-bar-size{
+    height: 5em;
+}
