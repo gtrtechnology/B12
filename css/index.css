@@ -1,7 +1,7 @@
 .bg-resines{
     background: url(/src/img/resines.png) no-repeat; 
     background-position: top;
-    height: 79vh;
+    height: 52vh;
 }
 .ganadores-bar-size{
     height: 5em;
@@ -15,4 +15,9 @@
 .position-call{
     position: fixed;
     right: 4em;
+}
+.sello-position{
+    position: sticky;
+    left: 35em;
+    bottom: 3em;
 }
