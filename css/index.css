@@ -1,5 +1,5 @@
 .bg-resines{
-    background: url(/src/img/resines.png) no-repeat; 
+    background: url(../src/img/resines.png) no-repeat; 
     background-position: top;
     height: 52vh;
 }
