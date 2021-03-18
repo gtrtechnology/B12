@@ -1,5 +1,36 @@
+@font-face {
+    font-family: 'gtRegular';
+    src: url(../src/fonts/gt-walsheim-regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: 'gtBold';
+    src: url(../src/fonts/gt-walsheim-ultra-bold.ttf) format("truetype");
+}
+@font-face {
+    font-family: 'gtBlack';
+    src: url(../src/fonts/gt-walsheim-black.ttf) format("truetype");
+}
+@font-face {
+    font-family: 'gtMedium';
+    src: url(../src/fonts/gt-walsheim-medium.ttf) format("truetype");
+}
+
+.font-regular{
+    font-family: 'gtRegular';
+}
+.font-bold{
+    font-family: 'gtBold';
+}
+.font-black{
+    font-family: 'gtBlack';
+}
+.font-medium{
+    font-family: 'gtMedium';
+}
+
 body{
     background-color: white;
+    font-family: 'gtRegular';
 }
 
 .bg-green{
@@ -15,6 +46,7 @@ body{
 .fs-21{
     font-size: 21px;
 }
+
 .border-dashed{
     border: dashed;
 }
@@ -22,6 +54,9 @@ body{
     border: 3px solid #fee334;
 }
 .text-black li a{
+    color: black;
+}
+.text-black{
     color: black;
 }
 .bg-cristal-shadow{
