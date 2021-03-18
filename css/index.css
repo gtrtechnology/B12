@@ -6,3 +6,13 @@
 .ganadores-bar-size{
     height: 5em;
 }
+.bg-amarillo h6{
+    background-color: #fee334;
+}
+.w-card{
+    width: 18rem;
+}
+.position-call{
+    position: fixed;
+    right: 4em;
+}

@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/header-footer.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
   </head>
   <body>
     <header class="bg-amarillo-header shadow-sm header-size">
@@ -20,17 +22,17 @@
             <a type="button" class="btn pt-3" data-toggle="modal" data-target="#exampleModalCenter">
                 <img class="call mw-100" src="src/img/logo-mm-header.png" alt="">
             </a>
-            <div class="d-lg-block d-none align-items-center justify-content-center">
+            <div class="d-lg-block d-none align-items-center justify-content-center position-call">
                 <div class="d-flex flex-direction-column justify-content-center bg-green">
                     <p class="d-none d-lg-inline-block text-center text-md-left text-white p-2">Llamanos<br class="d-md-block d-lg-none">Gratis<br>
                         <b class="letter-blue text-dark">900 273 983</b>
                     </p>
                 </div>
                 <br>    
-                <form class="text-white bg-black p-2">
+                <form class="text-white text-center bg-black p-4">
                     <p>O TE LLAMAMOS GRATIS</p>
-                    <div class="form-group mr-4 mr-md-2 d-block"> <input type="tel" data-ic-form-field="phone" id="phone-input-S" name="phone-input" class="input form-control" aria-describedby="phoneHelp" placeholder=" Ingresa tu número"> </div>
-                    <div class="form-group text-center mr-2">
+                    <div class="form-group d-block"> <input type="tel" data-ic-form-field="phone" id="phone-input-S" name="phone-input" class="input form-control" aria-describedby="phoneHelp" placeholder=" Ingresa tu número"> </div>
+                    <div class="form-group text-center">
                         <button type="submit" class="btn bg-green text-white px-4 w-100 gtm-form-sticky-submit">Solicitar</button>
                     </div>
                     <div class="form-group text-center mt-0 mb-0">
@@ -41,44 +43,87 @@
         </div>
     </header>
     <main>
+        <ul class="container nav bg-white text-black justify-content-lg-start justify-content-center align-items-center pt-2 pb-2">
+            <li class="nav-item">
+              <a class="nav-link" href="#"><b>MÓVIL + INTERNET</b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">SOLO MÓVIL</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">SOLO INTERNET</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">SOLO FIJO</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">COBERTURA</a>
+            </li>
+        </ul>
         <div class="bg-resines">
-            <div class="container d-flex flex-direction-column justify-content-center align-items-end pt-5 text-white">
-                <div>
-                    <h1></h1>
-                    <h1></h1>
-                    <a class="btn btn-contrata" type="button" href=""></a>
+            <div class="container">
+                <div class="border-0 bg-none w-card p-1">
+                    <div class="card-body pl-0 pr-0 bg-amarillo">
+                        <h6>FIBRA<b>600Mb A PRECIO DE 100Mb</b></h6>
+                        <h6>MÓVIL 10GB + LLAMAS ILIMITADAS</h6>
+                        <h6>2a Línea GRATIS 1GB/LIMIT.</h6>
+                        <div class="d-flex justify-content-center align-items-center border-dashed p-3">
+                            <div><h1 class="font-weight-bold">39,90</h1></div>
+                            <div class="fs-12"><b>€</b>/MES<br>IVA incluido</br></div>
+                        </div>
+                        <div class="d-flex justify-content-center align-items-center border-solid-yellow p-3">
+                            <div><h5 class="font-weight-bold">DURANTE 3 MESES</h5></div>
+                            <div class="fs-12">Después 49,90€/mes</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>  
         <div class="d-flex flex-direction-column justify-content-between align-items-center bg-amarillo-header conat text-center">
             <div class="container ganadores-bar-size d-flex align-items-center justify-content-center">
                 <img class="mr-3" src="src/img/sello-red-nperf.png" alt="">
-                <h5>Ganadores al premio al mejor operadorde Internet Fijo 2019 en España</h5>
+                <h6 class="mb-0">Ganadores al premio al mejor operadorde Internet Fijo 2019 en España</h6>
             </div>
         </div>
-        <ul class="nav nav-blue justify-content-center align-items-center pt-2 pb-2">
-            <li class="nav-item">
-              <a class="nav-link active" href="#">
-                  <img src="src/img/bg-ups/correo.svg" alt="">
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">atencionclientes@xxxx.com.mx</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">
-                    <img src="src/img/bg-ups/call.svg" alt="">
-                </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#" tabindex="-1" aria-disabled="true">673 690 0100</a>
-            </li>
-          </ul>
-        <div class="container justify-content-center align-items-center text-center">
-            <p class="text-center text-dark">
-                Aumenta tu velocidad de internet o cambia tu <b class="letter-blue">Doble plack por un Triple pack</b> a un precio inigualable.
-            </p>
-            <a href="/" type="button" class="btn btn-cliente m-5">Te ayudamos</a>
+        <div class="container my-5 justify-content-center align-items-center text-center">
+            <div>
+                <p class="text-center text-dark">LLÉVATE YA <b class="bg-amarillo">600Mb A PRECIO DE 100Mb </b><a class="text-white bg-green">¡LO QUIERO!</a></p>
+                <h3 class="font-weight-bold">FIBRA + MÓVIL ILIMITADO</h3>
+                <h3>Descubre la mejor oferta de internet + fijo + móvil</h3>
+                <p class="fs-12">Pásate a MásMovil y consigue la mejor oferta de internet + móvil ilimitado con velocidad 4G</p>
+            </div>
+            <div class="d-lg-flex flex-direction-column justify-content-center mx-lg-0 mx-5">
+                <div class="border-0 bg-none w-card p-1 mr-lg-5 mr-0">
+                    <div class="card-body pl-0 pr-0 bg-amarillo">
+                        <h6>FIBRA<b>600Mb A PRECIO DE 100Mb</b></h6>
+                        <h6>MÓVIL 10GB + LLAMAS ILIMITADAS</h6>
+                        <h6>2a Línea GRATIS 1GB/LIMIT.</h6>
+                        <div class="d-flex justify-content-center align-items-center border-dashed p-3">
+                            <div><h1 class="font-weight-bold">39,90</h1></div>
+                            <div class="fs-12"><b>€</b>/MES<br>IVA incluido</br></div>
+                        </div>
+                        <div class="d-flex justify-content-center align-items-center border-solid-yellow p-3">
+                            <div><h5 class="font-weight-bold">DURANTE 3 MESES</h5></div>
+                            <div class="fs-12">Después 49,90€/mes</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-0 bg-none w-card p-1">
+                    <div class="card-body pl-0 pr-0 bg-amarillo">
+                        <h6>FIBRA<b>600Mb A PRECIO DE 100Mb</b></h6>
+                        <h6>MÓVIL 10GB + LLAMAS ILIMITADAS</h6>
+                        <h6>2a Línea GRATIS 1GB/LIMIT.</h6>
+                        <div class="d-flex justify-content-center align-items-center border-dashed p-3">
+                            <div><h1 class="font-weight-bold">39,90</h1></div>
+                            <div class="fs-12"><b>€</b>/MES<br>IVA incluido</br></div>
+                        </div>
+                        <div class="d-flex justify-content-center align-items-center border-solid-yellow p-3">
+                            <div><h5 class="font-weight-bold">DURANTE 3 MESES</h5></div>
+                            <div class="fs-12">Después 49,90€/mes</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <footer class="bg-black">
             <nav class="navbar navbar-expand-lg">

@@ -9,3 +9,18 @@ body{
 .fs-12{
     font-size: 12px;
 }
+.fs-12 br{
+    font-size: 12px;
+}
+.fs-21{
+    font-size: 21px;
+}
+.border-dashed{
+    border: dashed;
+}
+.border-solid-yellow{
+    border: 3px solid #fee334;
+}
+.text-black li a{
+    color: black;
+}
